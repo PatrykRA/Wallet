@@ -53,5 +53,27 @@
 <img src="Jira.PNG">
 <tt>same case as above, more examples are on my portfolio</tt>
 <h2>🗂 Summary of tests</h2>
-<a>percentage of passed test cases</a>
-<img src="">
+<a>percentage of passed test cases:</a>
+<img src="diagram.PNG">
+<a>Critical bugs:</a>
+<ol>
+  <li>No possibility to create a password containing special characters</li>
+  <li>No e-mail address confirmation function</li>
+  <li>The ability to create a username consisting only of a "space" character</li>
+  <li>Lack of any possibility to sort transactions</li>
+  <li>Incorrectly designed application logic as to currency exchange</li>
+</ol>
+<a>Suggestions on what to improve:</a>
+<ol>
+  <li>adding the possibility to enter a longer password containing special characters</li>
+  <li>Adding the function of having to confirm the e-mail address at registration</li>
+  <li>Adding the ability to sort and filter transactions</li>
+  <li>improving the logic of currency exchange</li>
+</ol>
+<br>
+<a>Summary: After thorough testing of the app, I conclude that there are several important reasons why the app is not ready for release. Analysis of the tests showed that only 46% of the 65 test cases were successful, which is a decidedly low test success rate. This result raises concerns about the performance and quality of the application itself.</a>
+<br>
+<a>In addition, key issues with the application's security level are dangerous to potential users. The lack of confirmation via email and the inability to enter a strong password are significant security gaps, putting user data at risk of unauthorized access.</a>
+<br>
+<a>In addition, the lack of sorting functionality makes the application interface unreadable and uncomfortable for the user. This lack of functionality reduces the convenience of the application, which can lead to frustration and impair the user experience.</a>
+<a>Due to the above problems, I strongly recommend not releasing the app in its current state. It is necessary to take corrective measures, such as improving the success rate of tests, strengthening the level of security, and introducing sorting functions to ensure that the app is of sufficient quality and security for users.</a>
